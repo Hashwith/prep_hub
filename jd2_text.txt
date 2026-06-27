@@ -1,0 +1,83 @@
+About Aptroid Consulting (India) Pvt Ltd (Division of Zeta Global – Product Development
+Company):
+Aptroid Consulting (India) Pvt Ltd is a Web Development company focused on helping marketers
+transforms the customer experience increasing engagement and driving revenue, customer data
+to inform and drive it in every interaction in real time and with each individual behavior
+possibly. In today's consumer market, Aptroid marketers provide more sources than any other
+vendor allowing them to capture customer behavior to make them easily the most unique in the
+level of leverage behaviors that helps to automate the mutual giving an almost unlimited
+number of choices in advertising - the company has the best-in-breed technology solutions for
+marketers is committed to allow synchronization. Email and marketing automation with strong
+roots, Aptroid provides advertising and more engaging experiences for customers, which has
+evolved to provide efficient processes for business. A multi-channel customer behavior and
+leverage automation to capture the strong foundation of the e-mail exchange rates with most
+appropriate tools and techniques to drive customer communication and expand its focus. Easily
+the most unique marketing company that can automate interactions built on top of a strong
+base with the best features of email marketing and marketing automation. Aptroid provides
+marketing programs for some of the world's leading proprietary trading assets and capabilities
+of the forces at the end of the company's portfolio. Expertise encompassing all digital marketing
+channels - email, display, social, search and mobile.
+Role: Deep Programming, Systems Thinking & AI-Driven Engineering
+Location: Hyderabad
+About the Role
+We are looking for exceptional young engineers who possess strong analytical ability, deep
+programming understanding, and a genuine passion for how technology works under the hood.
+This role is not about knowing a single framework or tool — it is about the ability to think,
+reason, understand systems deeply, and intelligently leverage AI to amplify productivity and
+innovation.
+If you are someone who understands programming deeply and also knows how to use AI to
+think faster, build better, and push boundaries — this role is for you.
+What You Will Do
+• Design, develop, and optimize high-performance software components
+• Solve complex engineering problems through strong logic and structured thinking• Work with core data structures, algorithms, concurrency, and memory concepts
+• Understand internal program behavior, execution models, and system interactions
+• Build production-grade backend / platform / distributed systems
+• Use AI tools responsibly to improve coding efficiency, debugging accuracy, design quality, and
+learning speed
+• Continuously learn and adapt to new technologies, tools, and programming paradigms
+• Participate in design discussions, performance analysis, and code reviews
+What We Are Looking For – Must Have
+• Strong analytical and problem-solving mindset
+• Deep understanding of programming concepts (beyond syntax)
+• Clarity on:
+– Program execution model, stack vs heap, runtime behavior
+– Data Structures & Algorithms
+– Operating System fundamentals
+– Concurrency basics
+– Performance thinking and trade-offs
+• Curiosity-driven engineering mindset
+• Strong fundamentals in at least one programming language
+• Ability to leverage AI tools (Copilot / Claude etc.) to think better, research faster, debug
+smarter, and produce higher-quality engineering outcomes — as augmentation, not dependency
+Nice to Have
+• Understanding of compilation vs interpretation / JVM / memory models
+• Exposure to threads, processes, I/O, networking basics
+• Participation in coding contests / open-source contributions / serious personal projects
+• Internships / research exposure
+• Strong mathematical reasoning background• Experience using AI for code generation, debugging, documentation, architecture thinking, or
+learning acceleration
+Who Should Apply
+• You care about how and why systems work, not just how to code them
+• You enjoy deep technical thinking and solving intellectually challenging problems
+• You believe AI is a powerful amplifier — not a shortcut — and you know how to use it well
+• You want to become a strong backend / systems / platform engineer
+• You want to build a long-term, high-impact technical career
+Why Join us
+• Work closely with highly skilled senior engineers & architects
+• Build a world-class engineering foundation
+• Exposure to real-world scalable systems and complex problem spaces
+• Strong learning culture with AI-powered engineering workflows
+• Growth path toward senior engineering, platform engineering, and architecture leadership
+Share your resume along with:
+1. Programming projects or GitHub links
+2. Any AI-powered engineering work (optional but valued)
+3. A short note on a technical concept you explored deeply and why it fascinated you
+Pre-requisites:
+• B. Tech (CSE/IT) – 2027 Passed out
+• Should have 60% aggregate throughout their career
+• Willing to work in International time zones (US/UK)
+• Willing to give 2 years’ commitment to the company
+• Ready to join immediately.
+CTC: INR 800,000 to 100,000 PA + Benefits (Cab – drop & Food) (CTC depends upon their
+performance during interview)
+Stipend 45,000/-(During Internship).

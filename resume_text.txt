@@ -1,0 +1,46 @@
+TEKULA HASHWITH REDDY
+B.Tech CSE (AI & ML) • KMIT, Hyderabad
++91-9381507664 • tekulahashwith@gmail.com • LinkedIn • GitHub • LeetCode
+PROFESSIONAL SUMMARY
+Computer Science undergraduate (AI & ML) with a strong foundation in Core Java, object-oriented programming, data
+structures, and backend development. Hands-on experience building scalable applications, REST APIs, and structured
+workflows through real-world projects. Hardworking and highly focused, with strong analytical and problem-solving skills, a
+commitment to writing clean, maintainable code, and eagerness to contribute effectively in an Agile product development
+environment.
+TECHNICAL SKILLS
+Core Java OOPs, Collections Framework, Exception Handling, Data Structures & Algorithms
+Backend Node.js, Express.js, Flask, REST APIs, Socket.IO
+Frontend React.js, HTML5, CSS3, JavaScript (ES6+)
+Databases MongoDB, SQL, Redis (caching & session management)
+AI / ML ANN, CNN, RNN, Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib
+Tools Git, GitHub, Docker
+Languages Java, Python, JavaScript, C, C++, SQL
+PROJECTS
+AI Customer Support Ecosystem | Flask · React.js · Google Gemini AI · Redis · Socket.IO · MongoDB
+▸ Architected a hybrid AI-human support platform with Google Gemini AI resolving Tier-1 queries autonomously,
+reducing agent load significantly.
+▸ Built real-time escalation pipeline using Socket.IO and Redis-backed sessions for low-latency, high-throughput
+concurrent connections.
+▸ Designed RESTful Flask APIs with clean separation of concerns, modular architecture and structured error handling.
+Asset Management System (AMS) | React.js · Node.js · Express.js · MongoDB (MERN)
+▸ Built full-stack MERN app digitising enterprise inventory tracking via QR-code integration, eliminating manual data-
+entry errors.
+▸ Designed multi-tier role-based approval workflow (Employee → HOD → Admin) securing the asset request lifecycle
+end-to-end.
+▸ Implemented MVC architecture with real-time admin dashboards for asset distribution and maintenance monitoring.
+IPL Match Prediction System | Python · Keras · Scikit-learn · React.js
+▸ Trained a Deep Learning (ANN) model on historical IPL data using feature engineering and EDA to predict match
+outcomes.
+▸ Deployed interactive React dashboard for live win-probability visualisation and team analytics for end users.
+EDUCATION
+B.Tech – CSE (Artificial Intelligence & Machine Learning) — 2023 – Present
+Keshav Memorial Institute of Technology, Hyderabad | CGPA: 8.4 / 10.0
+Intermediate – MPC (Class XII) — 2021 – 2023
+Sarath Junior College | 96.2%
+Class X – ICSE Board — 2021
+Sri Sai Public School | 89.0%
+ACHIEVEMENTS & EXTRACURRICULARS
+▸ District-level competitive Volleyball player – strong team leadership, coordination and performance under pressure.
+▸ High academic performer: 96.2% in Class XII, 89% in Class X, and 8.4 CGPA in undergraduate studies.
+▸ Built three production-quality projects spanning AI, real-time systems, and full-stack development, demonstrating
+initiative beyond coursework.

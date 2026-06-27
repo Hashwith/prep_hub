@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Prep Hub — Hashwith's Interview Studio</title>
+  <meta name="description" content="Personal interview prep studio for Hashwith Reddy — OpenText AI/ML Internship."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== SIDEBAR ===== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sb-brand">
+    <div class="sb-logo">H</div>
+    <div>
+      <div class="sb-title">Prep Hub</div>
+      <div class="sb-sub">interview studio</div>
+    </div>
+  </div>
+
+  <nav class="sb-nav">
+    <div class="sb-nav-item active" id="nav-dashboard" onclick="showView('dashboard')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+      Dashboard
+    </div>
+    <div class="sb-nav-item" id="nav-topics" onclick="showView('topics')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+      Topics
+    </div>
+    <div class="sb-nav-item" id="nav-resumejd" onclick="showView('resumejd')">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      Resume &amp; JD
+    </div>
+  </nav>
+
+  <div class="sb-footer-card">
+    <div class="sb-footer-icon">✦</div>
+    <div class="sb-footer-label">PERSONAL</div>
+    <p class="sb-footer-text">Tailored study deck for your interview, generated from your resume &amp; JD.</p>
+  </div>
+</aside>
+
+<!-- ===== MAIN ===== -->
+<main class="main" id="main">
+
+  <!-- ── DASHBOARD ── -->
+  <div class="view" id="view-dashboard">
+    <div class="view-header">
+      <div class="view-eyebrow">PERSONAL INTERVIEW STUDIO</div>
+      <h1 class="view-hero">Your prep deck, <span class="hero-accent">distilled</span><br/>from your resume &amp; job description.</h1>
+      <p class="view-hero-sub">Study every topic from your resume and the OpenText JD — notes, Q&amp;A, and flashcards.</p>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-icon green">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        </div>
+        <div class="stat-label">TOTAL TOPICS</div>
+        <div class="stat-num" id="dash-total">18</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon teal">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <div class="stat-label">LEARNED</div>
+        <div class="stat-num" id="dash-learned">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon orange">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <div class="stat-label">IN PROGRESS</div>
+        <div class="stat-num" id="dash-progress">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon tan">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div class="stat-label">BOOKMARKED</div>
+        <div class="stat-num" id="dash-bookmarked">0</div>
+      </div>
+    </div>
+
+    <div class="progress-card">
+      <div class="progress-card-header">
+        <div>
+          <div class="progress-card-label">STUDY PROGRESS</div>
+          <div class="progress-card-pct" id="dash-pct">0% complete</div>
+        </div>
+        <button class="link-btn" onclick="showView('topics')">Browse topics →</button>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="dash-bar"></div></div>
+    </div>
+
+    <div class="dash-bottom">
+      <div class="dash-context-card" onclick="showView('resumejd')">
+        <div class="dash-card-label">YOUR CONTEXT</div>
+        <div class="dash-card-title">Resume &amp; JD</div>
+        <div class="dash-card-sub">Hashwith Reddy · OpenText AI/ML Internship</div>
+      </div>
+      <div class="dash-bookmarks-card">
+        <div class="dash-card-label">BOOKMARKED <span class="see-all" onclick="showView('topics')">see all →</span></div>
+        <div class="dash-card-title">Bookmarks</div>
+        <div class="dash-card-sub" id="dash-bookmarks-preview">Star important topics from the topics page.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── TOPICS LIBRARY ── -->
+  <div class="view hidden" id="view-topics">
+    <div class="view-header tight">
+      <div class="view-eyebrow">TOPIC LIBRARY</div>
+      <h1 class="view-title">All topics</h1>
+      <p class="view-count" id="topics-count">18 items · filter, search and open any card to study.</p>
+    </div>
+
+    <div class="topics-toolbar">
+      <div class="search-box">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="topic-search" placeholder="Search topics, notes, categories..." oninput="filterTopics()"/>
+      </div>
+      <select class="filter-select" id="filter-status" onchange="filterTopics()">
+        <option value="">All statuses</option>
+        <option value="not-started">Not started</option>
+        <option value="in-progress">In progress</option>
+        <option value="learned">Learned</option>
+      </select>
+      <select class="filter-select" id="filter-cat" onchange="filterTopics()">
+        <option value="">All categories</option>
+        <option value="Java">Java</option>
+        <option value="DSA">DSA</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="Databases">Databases</option>
+        <option value="AI / ML">AI / ML</option>
+        <option value="System Design">System Design</option>
+        <option value="CS Fundamentals">CS Fundamentals</option>
+        <option value="Tools">Tools</option>
+      </select>
+    </div>
+
+    <div class="topics-grid" id="topics-grid">
+      <!-- populated by JS -->
+    </div>
+  </div>
+
+  <!-- ── TOPIC DETAIL ── -->
+  <div class="view hidden" id="view-topic-detail">
+    <div class="back-bar">
+      <button class="back-btn" onclick="showView('topics')">← Back to topics</button>
+    </div>
+    <div id="topic-detail-content"></div>
+  </div>
+
+  <!-- ── PRACTICE MODE ── -->
+  <div class="view hidden" id="view-practice">
+    <div class="back-bar">
+      <button class="back-btn" id="practice-back-btn">← Back to topic</button>
+    </div>
+    <div class="practice-container" id="practice-container"></div>
+  </div>
+
+  <!-- ── RESUME & JD ── -->
+  <div class="view hidden" id="view-resumejd">
+    <div class="view-header tight">
+      <div class="view-eyebrow">YOUR CONTEXT</div>
+      <h1 class="view-title">Resume &amp; Job Description</h1>
+      <p class="view-count">Your profile — the foundation of your personalised study deck.</p>
+    </div>
+    <div class="rjd-tabs">
+      <button class="rjd-tab active" id="tab-resume" onclick="switchRJD('resume')">📄 Resume</button>
+      <button class="rjd-tab" id="tab-jd" onclick="switchRJD('jd')">💼 Job Description</button>
+    </div>
+    <div class="rjd-content" id="rjd-resume-content"></div>
+    <div class="rjd-content hidden" id="rjd-jd-content"></div>
+  </div>
+
+</main>
+
+<script src="data.js"></script>
+<script src="data2.js"></script>
+<script src="data3.js"></script>
+<script src="data4.js"></script>
+<script src="data5.js"></script>
+<script src="data6.js"></script>
+<script src="data7.js"></script>
+<script src="data8.js"></script>
+<script src="app.js"></script>
+<script src="chatbot.js"></script>
+</body>
+</html>
